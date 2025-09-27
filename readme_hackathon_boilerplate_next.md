@@ -25,6 +25,9 @@ Stop:
 docker compose down
 ```
 
+After succesful build and stop
+For development speed I recommend running /api and /db on docker only and /web on local npm run dev
+
 > **Note:** Your host browser cannot resolve `http://api:8000` (that DNS name is only valid between containers). Use `http://localhost:8000` from your host.
 
 ---
